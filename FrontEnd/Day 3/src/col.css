@@ -1,0 +1,33 @@
+.pro-week {
+    /* background-image: url("https://mixkit.imgix.net/videos/preview/mixkit-drops-of-gold-glitter-31578-0.jpg?q=80&auto=format%2Ccompress"); */
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .pow {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+  
+  }
+  
+  .pow-title {
+    /* color: aliceblue; */
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .pow-img {
+    height: 450px;
+    background: transparent;
+    background-color: transparent;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .pow-des {
+    /* color: aliceblue; */
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+  }
