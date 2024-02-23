@@ -1,0 +1,76 @@
+/* faq.css */
+
+/* Container styles */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header-details {
+    text-align: center;
+}
+
+.text {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* FAQ list styles */
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* FAQ item styles */
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Question container styles */
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.txt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+.plus {
+    font-size: 24px;
+    color: #777;
+    transition: transform 0.3s ease;
+}
+
+.plus.open {
+    transform: rotate(45deg);
+}
+
+/* Answer styles */
+.text1 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+    display: none;
+}
+
+.faq-item.open .text1 {
+    display: block;
+}
